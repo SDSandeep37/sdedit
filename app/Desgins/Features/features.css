@@ -1,0 +1,41 @@
+.features {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  gap: 20px;
+}
+.featuresCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.featuresCard h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .features {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .features {
+    flex-direction: column;
+    width: 100%;
+  }
+  .featuresCard h2 {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .features {
+    flex-direction: column;
+    width: 100%;
+  }
+  .features {
+    padding: 10px;
+  }
+}

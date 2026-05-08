@@ -1,0 +1,40 @@
+.smallCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  background-color: var(--bg-secondary);
+}
+.smallCardImage {
+  width: 100%;
+  object-fit: cover;
+}
+.smallCardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.smallCardContent h3 {
+  font-weight: bold;
+}
+.smallCardContent p {
+  text-align: center;
+}
+@media screen and (max-width: 1024px) {
+  .smallCard {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .smallCard {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .smallCard {
+    width: 90%;
+  }
+}

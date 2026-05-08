@@ -1,0 +1,37 @@
+.joinUs {
+  background: linear-gradient(
+    to right,
+    var(--bg-primary),
+    var(--bg-secondary),
+    var(--bg-secondary)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  gap: 10px;
+}
+.joinUs h1 {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+.joinUs p {
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+.joinButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.joinButton button {
+  background-color: var(--accent-orange);
+}
+.joinButton .joinNow {
+  background-color: var(--bg-primary);
+  border: 0.6px solid var(--text-secondary);
+}

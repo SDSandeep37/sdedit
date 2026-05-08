@@ -1,0 +1,52 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+footer h3 {
+  font-weight: 700;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+footer ul li {
+  font-size: 14px;
+}
+.quickFollowus ul {
+  flex-direction: row;
+  gap: 20px;
+}
+.quickFollowus ul li {
+  font-size: 30px;
+}
+.quickLinks,
+.quickFollowus,
+.quickResources {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.quickCopyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quickCopyright p {
+  font-family: cursive;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 780px) {
+  footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

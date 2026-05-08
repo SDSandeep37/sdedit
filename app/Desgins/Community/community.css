@@ -1,0 +1,23 @@
+.communtiy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.communtiy h1 {
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.communtiy p {
+  letter-spacing: 1.2px;
+  font-size: 12px;
+  font-family: cursive;
+}
+.communityCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}

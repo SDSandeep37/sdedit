@@ -1,0 +1,59 @@
+.realTime {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  background: linear-gradient(
+    to right,
+    var(--bg-primary),
+    var(--bg-primary),
+    var(--bg-secondary)
+  );
+  margin: 20px 0px;
+  box-shadow: -1px 0px 2px 0px var(--hover-orange);
+  padding: 0px 20px;
+}
+.realTimeImage {
+  width: 250px;
+  margin-left: 20px;
+}
+.realTimeImage img {
+  width: 100%;
+  object-fit: cover;
+}
+.realTimeText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.realTimeText h1 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: cursive;
+}
+.realTimeText p {
+  font-size: 14px;
+  font-family: cursive;
+}
+@media screen and (max-width: 540px) {
+  .realTime {
+    flex-direction: column;
+  }
+  .realTimeText {
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  .realTimeText h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .realTimeText p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .realTimeImage {
+    width: 80%;
+    margin-left: 20px;
+  }
+}
