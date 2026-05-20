@@ -26,7 +26,7 @@ const Community = () => {
     },
   ];
   return (
-    <div className="communtiy">
+    <div className="communtiy" id="community">
       <h1>
         Explore Your{" "}
         <strong className="text-(--accent-orange)">Communities</strong>

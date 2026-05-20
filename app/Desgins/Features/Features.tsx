@@ -29,7 +29,7 @@ const Features = () => {
     },
   ];
   return (
-    <div className="features">
+    <div className="features" id="features">
       <div className="featuresCard flex-1">
         <h2>Featured Posts</h2>
         {featureCardDetails &&

@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import "./banner.css";
 
 const Banner = () => {
@@ -21,7 +22,7 @@ const Banner = () => {
           </h1>
           <div className="bannerButtons flex gap-4">
             <button className="bannerGetStarted bg-(--accent-orange)">
-              Get Started
+              <Link href="/login">Get Started</Link>
             </button>
             <button className="bannerLearnMore  bg-(--bg-primary)">
               Learn More

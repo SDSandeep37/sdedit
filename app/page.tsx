@@ -10,13 +10,11 @@ import Footer from "./Desgins/Footer/Footer";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Banner />
       <Community />
       <Features></Features>
       <RealTime />
       <JoinUs />
-      <Footer />
     </div>
   );
 };

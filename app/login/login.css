@@ -1,0 +1,43 @@
+.loginUi {
+  min-height: 80vh;
+  background-image: url("../../public/bg.png");
+  background-size: cover;
+}
+.loginFormContainer small {
+  padding: 10px;
+  color: var(--text-secondary);
+}
+.loginForm {
+  margin-top: 20px;
+  background-color: var(--bg-secondary);
+  border-radius: 20px;
+  box-shadow: 5px 5px 6px 1px var(--bg-primary);
+  /* x-axis y blur spread */
+  min-width: 320px;
+  padding: 20px;
+}
+
+.formElement {
+  gap: 5px;
+  font-size: 14px;
+}
+.formInput {
+  padding: 10px 20px;
+  font-size: 12px;
+  border: 0.3px solid var(--bg-primary);
+  outline-color: var(--text-secondary);
+  border-radius: 10px;
+}
+label {
+  font-weight: 600;
+}
+.logInButton {
+  background-color: var(--text-success);
+  color: var(--text-primary);
+  width: 200px;
+  text-align: center;
+}
+.loginForm .info {
+  font-size: 13px;
+  font-family: cursive;
+}

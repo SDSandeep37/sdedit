@@ -1,3 +1,4 @@
+import Link from "next/link";
 import "./joinus.css";
 
 const JoinUs = () => {
@@ -9,8 +10,12 @@ const JoinUs = () => {
       </h1>
       <p>Sign up now to be a part of conversation!</p>
       <div className="joinButton">
-        <button>Get Started</button>
-        <button className="joinNow">Join Now</button>
+        <button>
+          <Link href="/login">Get Started</Link>
+        </button>
+        <button className="joinNow">
+          <Link href="/register">Join Now</Link>
+        </button>
       </div>
     </div>
   );

@@ -1,0 +1,21 @@
+.feedPost {
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.feedPost::-webkit-scrollbar {
+  width: 0px;
+}
+.others {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .feedPostAndOthersContainer {
+    flex-direction: column;
+  }
+}

@@ -10,6 +10,7 @@
   --border-color: #30363d;
   --hover-orange: #ffa94d;
   --hover-blue: #33a1fd;
+  --text-success: rgb(10, 225, 10);
   --transition: ease-in-out 0.5s;
 }
 * {
@@ -22,6 +23,7 @@
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
+  scroll-behavior: smooth;
 }
 button {
   border: none;

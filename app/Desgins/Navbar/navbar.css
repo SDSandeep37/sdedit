@@ -37,10 +37,13 @@
   justify-content: center;
 }
 .login button {
+  transition: var(--transition);
+}
+.loginButtonNavbar {
   background-color: var(--accent-orange);
   transition: var(--transition);
 }
-.login button:hover {
+.loginButtonNavbar:hover {
   background-color: var(--hover-orange);
   color: var(--bg-secondary);
 }

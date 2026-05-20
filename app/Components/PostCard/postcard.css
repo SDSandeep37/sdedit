@@ -1,0 +1,86 @@
+.postCard {
+  padding: 20px;
+  border-radius: 20px;
+}
+.postCardTop {
+  display: flex;
+  gap: 10px;
+}
+.postCardTop .userImage {
+  width: 30px;
+}
+.postCardTop .userImage img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.postDescription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.postDescription p {
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.poster {
+  background-color: var(--bg-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  border-radius: 20px;
+}
+.poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 20px;
+}
+.votes {
+  padding: 20px;
+}
+.commentPopupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(3, 47, 85, 0.283);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.commentPopup {
+  background: var(--bg-primary);
+  padding: 20px;
+  border-radius: 12px;
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.commentPopup textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 10px;
+  resize: none;
+}
+
+.commentButtons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 480px) {
+  .postCard {
+    width: 90% !important;
+  }
+}

@@ -1,0 +1,16 @@
+.recentCommunities {
+  border-top: 2px solid var(--bg-secondary);
+  margin-top: 20px;
+}
+.recentCommunity {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: var(--bg-primary);
+}
+.recentCommunity img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
