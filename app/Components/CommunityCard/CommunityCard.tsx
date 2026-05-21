@@ -173,9 +173,12 @@ const CommunityCard = ({
         <span className="text-gray-300">{members} Members</span>
 
         {creator === user?.id ? (
-          <button className="communityJoinButton communityDetailsButton">
-            Details
-          </button>
+          // <button className="communityJoinButton communityDetailsButton">
+          //   Details
+          // </button>
+          <Link href={`/user/communities/${id}/create-post`}>
+            <button className="communityJoinButton joinedButton">Post</button>
+          </Link>
         ) : isJoining ? (
           <button className="communityJoinButton joiningButton" disabled>
             Joining...
