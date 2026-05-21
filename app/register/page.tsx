@@ -72,6 +72,7 @@ const registerPage = () => {
         },
       );
       const result = await response.json();
+      console.log(result);
       if (!result.success) {
         setMessageType("error");
         setMessage(result.message);
